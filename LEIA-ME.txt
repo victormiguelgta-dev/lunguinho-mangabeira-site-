@@ -1,0 +1,20 @@
+LUNGUINHO MANGABEIRA - LANDING PAGE
+===================================
+Estrutura:
+  index.html      -> página
+  css/style.css   -> estilos (cores da logo nas variáveis do topo)
+  js/main.js      -> menu, animações, galeria, formulário -> WhatsApp
+  img/            -> logo (normal, branca e ícone) + fotos escolhidas
+  video/          -> vídeo de fundo (mp4 + webm), já cortado e sem áudio
+
+Deploy: arraste a pasta inteira no Netlify (Deploys > Drag and drop).
+
+Pontos a confirmar com o cliente: procure "[CONFIRMAR]" no index.html e no js/main.js
+  - texto do hero e história do escritório
+  - áreas de atuação e descrições
+  - mini currículo dos dois advogados
+  - horário de atendimento / atendimento online
+  - número do WhatsApp que recebe as mensagens (WHATSAPP_PADRAO no main.js)
+  - link do Instagram
+
+Para trocar o vídeo: substitua video/escritorio.mp4 (e apague o .webm ou gere outro).

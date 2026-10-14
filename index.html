@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunguinho Mangabeira | Advocacia e Consultoria Jurídica em Taguatinga/DF</title>
+  <meta name="description" content="Lunguinho Mangabeira Advocacia e Consultoria Jurídica. Atendimento consultivo e contencioso em Taguatinga Norte, Brasília/DF, com Dr. Almir Lunguinho de Andrade e Dra. Cláudia Maria Barbosa Mangabeira.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0B7EBF">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Lunguinho Mangabeira | Advocacia e Consultoria Jurídica">
+  <meta property="og:description" content="Atendimento jurídico consultivo e contencioso em Taguatinga Norte, Brasília/DF.">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="img/logo-icone.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== BARRA SUPERIOR ===== -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <span class="topbar__item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+        QNL 11 Conjunto I, Lote 10, Sl. 10 – Taguatinga Norte/DF
+      </span>
+      <a class="topbar__item" href="mailto:lunguinhomangabeira.adv@gmail.com">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5Z"/></svg>
+        lunguinhomangabeira.adv@gmail.com
+      </a>
+      <!-- [CONFIRMAR] horário de atendimento -->
+      <span class="topbar__item topbar__hours">Seg. a sex. · 09h às 18h</span>
+    </div>
+  </div>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__logo" aria-label="Lunguinho Mangabeira – início">
+        <img src="img/logo.png" alt="Lunguinho Mangabeira Advocacia e Consultoria Jurídica" width="928" height="231">
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <a href="#inicio" class="nav__link">Início</a>
+        <a href="#escritorio" class="nav__link">O Escritório</a>
+        <a href="#areas" class="nav__link">Áreas</a>
+        <a href="#advogados" class="nav__link">Advogados</a>
+        <a href="#contato" class="nav__link">Contato</a>
+        <a href="#" class="btn btn--primary nav__cta js-whatsapp" data-msg="Olá! Gostaria de agendar uma consulta com o escritório Lunguinho Mangabeira.">Agendar consulta</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO COM VÍDEO ===== -->
+    <section class="hero" id="inicio">
+      <!-- vídeo de fundo (no computador fica desfocado; no celular aparece inteiro) -->
+      <video class="hero__bg" autoplay muted loop playsinline preload="metadata" poster="img/video-poster.jpg" aria-hidden="true">
+        <source src="video/escritorio.mp4" type="video/mp4">
+        <source src="video/escritorio.webm" type="video/webm">
+      </video>
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="eyebrow eyebrow--light">Advocacia e Consultoria Jurídica</span>
+          <h1 class="hero__title">Segurança jurídica para você, sua família e seu negócio</h1>
+          <!-- [CONFIRMAR] texto de apresentação -->
+          <p class="hero__text">
+            Atuação consultiva e contenciosa com ética, estratégia e atendimento próximo.
+            Cada caso é analisado com atenção para encontrar o caminho mais seguro para os seus direitos.
+          </p>
+
+          <!-- [CONFIRMAR] áreas em destaque -->
+          <ul class="hero__tags">
+            <li>Direito Civil</li>
+            <li>Família e Sucessões</li>
+            <li>Direito Trabalhista</li>
+          </ul>
+
+          <div class="hero__actions">
+            <a href="#" class="btn btn--white js-whatsapp" data-msg="Olá! Gostaria de agendar uma consulta com o escritório Lunguinho Mangabeira.">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-1 .24-3.36-.7-2.84-1.12-4.63-4.03-4.77-4.22-.14-.18-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.25-.28.55-.35.74-.35l.53.01c.17.01.4-.06.62.48.25.6.84 2.06.91 2.21.07.15.12.32.02.51-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.29.14.46.12.63-.08.17-.19.73-.85.92-1.14.19-.29.39-.24.65-.15.27.1 1.7.8 1.99.95.29.14.48.22.55.34.07.12.07.69-.18 1.39Z"/></svg>
+              Agende uma consulta
+            </a>
+            <a href="#areas" class="btn btn--ghost">Conhecer as áreas</a>
+          </div>
+        </div>
+
+        <div class="hero__media" aria-hidden="true">
+          <div class="hero__frame">
+            <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="img/video-poster.jpg">
+              <source src="video/escritorio.mp4" type="video/mp4">
+              <source src="video/escritorio.webm" type="video/webm">
+            </video>
+          </div>
+          <img class="hero__mark" src="img/logo-icone.png" alt="">
+        </div>
+      </div>
+
+      <a href="#escritorio" class="hero__scroll" aria-label="Rolar para baixo"><span></span></a>
+    </section>
+
+    <!-- ===== DIFERENCIAIS ===== -->
+    <section class="highlights">
+      <div class="container highlights__grid">
+        <div class="highlight reveal">
+          <div class="highlight__icon"><svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V5l-8-3Zm-1.2 14.2-3.5-3.5 1.4-1.4 2.1 2.1 4.9-4.9 1.4 1.4-6.3 6.3Z"/></svg></div>
+          <div><h3>Ética e sigilo</h3><p>Informações tratadas com total confidencialidade.</p></div>
+        </div>
+        <div class="highlight reveal">
+          <div class="highlight__icon"><svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3Zm-8 0c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3Zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13Zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5Z"/></svg></div>
+          <div><h3>Atendimento próximo</h3><p>Contato direto com os advogados responsáveis.</p></div>
+        </div>
+        <div class="highlight reveal">
+          <div class="highlight__icon"><svg viewBox="0 0 24 24"><path d="M21 3H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm0 14H3V5h18v12Z"/></svg></div>
+          <!-- [CONFIRMAR] se atende online -->
+          <div><h3>Presencial e online</h3><p>Reuniões no escritório ou por videochamada.</p></div>
+        </div>
+        <div class="highlight reveal">
+          <div class="highlight__icon"><svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm-5 14H7v-2h7v2Zm3-4H7v-2h10v2Zm0-4H7V7h10v2Z"/></svg></div>
+          <div><h3>Consultivo e contencioso</h3><p>Prevenção de conflitos e defesa em processos.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== O ESCRITÓRIO ===== -->
+    <section class="section about" id="escritorio">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <img src="img/socios.jpg" alt="Dr. Almir Lunguinho de Andrade e Dra. Cláudia Maria Barbosa Mangabeira no escritório" loading="lazy" width="1000" height="1333">
+          <div class="about__badge">
+            <img src="img/logo-icone.png" alt="" width="233" height="240">
+            <span>Taguatinga Norte<br><strong>Brasília/DF</strong></span>
+          </div>
+        </div>
+
+        <div class="about__content reveal">
+          <span class="eyebrow">O Escritório</span>
+          <h2 class="section-title">Advocacia feita com estratégia, ética e proximidade</h2>
+          <!-- [CONFIRMAR] história do escritório (ano de fundação, missão, diferenciais) -->
+          <p>
+            O escritório <strong>Lunguinho Mangabeira – Advocacia e Consultoria Jurídica</strong> nasceu da união
+            de dois advogados com o mesmo propósito: oferecer um atendimento jurídico sério, transparente e
+            humano, em que cada cliente é ouvido com atenção e acompanhado de perto em todas as etapas.
+          </p>
+          <p>
+            Atuamos tanto na prevenção de conflitos, com consultoria e orientação jurídica, quanto na defesa
+            dos seus interesses perante o Judiciário, sempre buscando a solução mais eficiente para cada situação.
+          </p>
+          <ul class="checklist">
+            <li>Análise detalhada de cada caso antes de qualquer decisão</li>
+            <li>Comunicação clara, sem “juridiquês”</li>
+            <li>Acompanhamento do processo do início ao fim</li>
+          </ul>
+          <a href="#advogados" class="btn btn--primary">Conheça os advogados</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ÁREAS DE ATUAÇÃO ===== -->
+    <!-- [CONFIRMAR] áreas de atuação e descrições -->
+    <section class="section areas" id="areas">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Áreas de Atuação</span>
+          <h2 class="section-title">Como podemos ajudar você</h2>
+          <p class="section-sub">Atendimento especializado nas principais demandas de pessoas e empresas.</p>
+        </div>
+
+        <div class="areas__grid">
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Zm-6.82 9.18v4L12 20l6.82-3.82v-4L12 16l-6.82-3.82Z"/></svg></div>
+            <h3>Direito Civil</h3>
+            <p>Contratos, indenizações, cobranças, responsabilidade civil e questões patrimoniais.</p>
+            <a href="#" class="card__link js-whatsapp" data-msg="Olá! Gostaria de falar sobre uma questão de Direito Civil.">Falar sobre o meu caso →</a>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 21.35 10.55 20C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35Z"/></svg></div>
+            <h3>Família e Sucessões</h3>
+            <p>Divórcio, guarda, pensão alimentícia, união estável, inventário e partilha de bens.</p>
+            <a href="#" class="card__link js-whatsapp" data-msg="Olá! Gostaria de falar sobre uma questão de Família e Sucessões.">Falar sobre o meu caso →</a>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2Zm-6 0h-4V4h4v2Z"/></svg></div>
+            <h3>Direito Trabalhista</h3>
+            <p>Reclamações trabalhistas, verbas rescisórias, acordos e orientação a empregadores.</p>
+            <a href="#" class="card__link js-whatsapp" data-msg="Olá! Gostaria de falar sobre uma questão Trabalhista.">Falar sobre o meu caso →</a>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Zm0 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm4 10H8v-1c0-1.33 2.67-2 4-2s4 .67 4 2v1Z"/></svg></div>
+            <h3>Direito Previdenciário</h3>
+            <p>Aposentadorias, benefícios por incapacidade, BPC/LOAS, pensão por morte e revisões.</p>
+            <a href="#" class="card__link js-whatsapp" data-msg="Olá! Gostaria de falar sobre uma questão Previdenciária.">Falar sobre o meu caso →</a>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2ZM1 2v2h2l3.6 7.59-1.35 2.45A2 2 0 0 0 7 17h12v-2H7.42a.25.25 0 0 1-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1 1 0 0 0 20 4H5.21l-.94-2H1Zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2Z"/></svg></div>
+            <h3>Direito do Consumidor</h3>
+            <p>Cobranças indevidas, negativação, problemas com bancos, planos de saúde e compras.</p>
+            <a href="#" class="card__link js-whatsapp" data-msg="Olá! Gostaria de falar sobre uma questão de Direito do Consumidor.">Falar sobre o meu caso →</a>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 7V3H2v18h20V7H12ZM6 19H4v-2h2v2Zm0-4H4v-2h2v2Zm0-4H4V9h2v2Zm0-4H4V5h2v2Zm4 12H8v-2h2v2Zm0-4H8v-2h2v2Zm0-4H8V9h2v2Zm0-4H8V5h2v2Zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10Zm-2-8h-2v2h2v-2Zm0 4h-2v2h2v-2Z"/></svg></div>
+            <h3>Consultoria Empresarial</h3>
+            <p>Elaboração e revisão de contratos, orientação preventiva e assessoria jurídica a empresas.</p>
+            <a href="#" class="card__link js-whatsapp" data-msg="Olá! Gostaria de falar sobre Consultoria Jurídica para minha empresa.">Falar sobre o meu caso →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ADVOGADOS ===== -->
+    <section class="section lawyers" id="advogados">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Nossos Advogados</span>
+          <h2 class="section-title">Quem cuida do seu caso</h2>
+        </div>
+
+        <div class="lawyers__grid">
+          <article class="lawyer reveal">
+            <div class="lawyer__photo">
+              <img src="img/almir.jpg" alt="Dr. Almir Lunguinho de Andrade" loading="lazy" width="1000" height="1333">
+            </div>
+            <div class="lawyer__body">
+              <span class="lawyer__oab">OAB/DF 38.345</span>
+              <h3>Dr. Almir Lunguinho de Andrade</h3>
+              <!-- [CONFIRMAR] mini currículo do Dr. Almir -->
+              <p>Sócio fundador. Advogado com atuação voltada à resolução estratégica de conflitos e à orientação jurídica preventiva, sempre com atendimento direto e transparente ao cliente.</p>
+              <div class="lawyer__contacts">
+                <a href="tel:+5561981993806">(61) 9 8199-3806</a>
+                <a href="tel:+5561984468184">(61) 9 8446-8184</a>
+              </div>
+              <a href="#" class="btn btn--primary btn--sm js-whatsapp" data-phone="5561981993806" data-msg="Olá, Dr. Almir! Gostaria de agendar uma consulta.">Falar com o Dr. Almir</a>
+            </div>
+          </article>
+
+          <article class="lawyer reveal">
+            <div class="lawyer__photo">
+              <img src="img/claudia.jpg" alt="Dra. Cláudia Maria Barbosa Mangabeira" loading="lazy" width="1000" height="1333">
+            </div>
+            <div class="lawyer__body">
+              <span class="lawyer__oab">OAB/DF 41.585</span>
+              <h3>Dra. Cláudia Maria Barbosa Mangabeira</h3>
+              <!-- [CONFIRMAR] mini currículo da Dra. Cláudia -->
+              <p>Sócia fundadora. Advogada com atuação marcada pelo atendimento humanizado e pela atenção a cada detalhe, buscando soluções seguras e personalizadas para cada cliente.</p>
+              <div class="lawyer__contacts">
+                <a href="tel:+5561984496868">(61) 9 8449-6868</a>
+                <a href="tel:+5561992494849">(61) 9 9249-4849</a>
+              </div>
+              <a href="#" class="btn btn--primary btn--sm js-whatsapp" data-phone="5561984496868" data-msg="Olá, Dra. Cláudia! Gostaria de agendar uma consulta.">Falar com a Dra. Cláudia</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMO FUNCIONA ===== -->
+    <section class="section steps">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow eyebrow--light">Atendimento</span>
+          <h2 class="section-title section-title--light">Como funciona</h2>
+        </div>
+        <ol class="steps__grid">
+          <li class="step reveal"><span class="step__num">01</span><h3>Primeiro contato</h3><p>Fale conosco pelo WhatsApp, telefone ou e-mail e conte brevemente a sua situação.</p></li>
+          <li class="step reveal"><span class="step__num">02</span><h3>Reunião</h3><p>Agendamos uma conversa, presencial ou online, para entender o caso em detalhes.</p></li>
+          <li class="step reveal"><span class="step__num">03</span><h3>Estratégia</h3><p>Apresentamos as possibilidades, riscos e o caminho mais adequado para você.</p></li>
+          <li class="step reveal"><span class="step__num">04</span><h3>Acompanhamento</h3><p>Seguimos com você em todas as etapas, com retorno claro sobre cada andamento.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== GALERIA ===== -->
+    <section class="section gallery" id="galeria">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Nosso Espaço</span>
+          <h2 class="section-title">Um ambiente preparado para receber você</h2>
+        </div>
+        <div class="gallery__grid">
+          <button class="gallery__item gallery__item--tall reveal" data-full="img/socios-2.jpg"><img src="img/socios-2.jpg" alt="Sócios do escritório na sala de atendimento" loading="lazy"></button>
+          <button class="gallery__item reveal" data-full="img/reuniao.jpg"><img src="img/reuniao.jpg" alt="Reunião na sala de conferências" loading="lazy"></button>
+          <button class="gallery__item reveal" data-full="img/claudia-3.jpg"><img src="img/claudia-3.jpg" alt="Dra. Cláudia trabalhando" loading="lazy"></button>
+          <button class="gallery__item reveal" data-full="img/almir-2.jpg"><img src="img/almir-2.jpg" alt="Dr. Almir no escritório" loading="lazy"></button>
+          <button class="gallery__item reveal" data-full="img/almir-3.jpg"><img src="img/almir-3.jpg" alt="Dr. Almir em atendimento" loading="lazy"></button>
+          <button class="gallery__item gallery__item--wide reveal" data-full="img/claudia-2.jpg"><img src="img/claudia-2.jpg" alt="Dra. Cláudia no escritório" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="section contact" id="contato">
+      <div class="container contact__grid">
+        <div class="contact__info reveal">
+          <span class="eyebrow">Contato</span>
+          <h2 class="section-title">Fale com a nossa equipe</h2>
+          <p>Tire suas dúvidas ou agende uma reunião. Retornaremos o mais breve possível.</p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg></span>
+              <div><strong>Endereço</strong><span>QNL 11 Conjunto I, Lote 10, Sala 10<br>Taguatinga Norte, Brasília/DF – CEP 72151-109</span></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5Z"/></svg></span>
+              <div><strong>E-mail</strong><a href="mailto:lunguinhomangabeira.adv@gmail.com">lunguinhomangabeira.adv@gmail.com</a></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z"/></svg></span>
+              <div><strong>Telefones</strong><span>Dr. Almir: <a href="tel:+5561981993806">(61) 9 8199-3806</a><br>Dra. Cláudia: <a href="tel:+5561984496868">(61) 9 8449-6868</a></span></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg></span>
+              <!-- [CONFIRMAR] horário -->
+              <div><strong>Horário</strong><span>Segunda a sexta, das 09h às 18h<br>Atendimento com hora marcada</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <h3>Envie sua mensagem</h3>
+          <p class="form__note">Ao enviar, sua mensagem abre direto no nosso WhatsApp.</p>
+          <label>Nome
+            <input type="text" name="nome" required placeholder="Seu nome completo" autocomplete="name">
+          </label>
+          <label>Telefone
+            <input type="tel" name="telefone" required placeholder="(61) 9 0000-0000" autocomplete="tel">
+          </label>
+          <label>Assunto
+            <select name="assunto">
+              <option>Direito Civil</option>
+              <option>Família e Sucessões</option>
+              <option>Direito Trabalhista</option>
+              <option>Direito Previdenciário</option>
+              <option>Direito do Consumidor</option>
+              <option>Consultoria Empresarial</option>
+              <option>Outro assunto</option>
+            </select>
+          </label>
+          <label>Mensagem
+            <textarea name="mensagem" rows="4" placeholder="Conte brevemente sobre a sua situação"></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary btn--block">Enviar pelo WhatsApp</button>
+          <p class="form__privacy">Suas informações são protegidas pelo sigilo profissional.</p>
+        </form>
+      </div>
+
+      <div class="container">
+        <div class="map reveal">
+          <iframe
+            title="Mapa – Lunguinho Mangabeira Advocacia"
+            src="https://www.google.com/maps?q=QNL+11+Conjunto+I+Lote+10+Taguatinga+Norte+Brasilia+DF&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="img/logo-branco.png" alt="Lunguinho Mangabeira Advocacia e Consultoria Jurídica" width="928" height="231" loading="lazy">
+        <p>Atendimento jurídico consultivo e contencioso com ética, estratégia e proximidade.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <a href="#escritorio">O Escritório</a>
+        <a href="#areas">Áreas de Atuação</a>
+        <a href="#advogados">Advogados</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div>
+        <h4>Advogados</h4>
+        <span>Almir Lunguinho de Andrade<br><small>OAB/DF 38.345</small></span>
+        <span>Cláudia Maria Barbosa Mangabeira<br><small>OAB/DF 41.585</small></span>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <a href="mailto:lunguinhomangabeira.adv@gmail.com">lunguinhomangabeira.adv@gmail.com</a>
+        <span>QNL 11 Conjunto I, Lote 10, Sl. 10<br>Taguatinga Norte – DF</span>
+        <div class="footer__social">
+          <!-- [CONFIRMAR] link do Instagram -->
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm5.25-3a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/></svg></a>
+          <a href="https://www.google.com/maps/search/?api=1&query=QNL+11+Conjunto+I+Lote+10+Taguatinga+Norte+Brasilia+DF" target="_blank" rel="noopener" aria-label="Localização"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg></a>
+          <a href="#" class="js-whatsapp" data-msg="Olá! Vim pelo site e gostaria de mais informações." aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-1 .24-3.36-.7-2.84-1.12-4.63-4.03-4.77-4.22-.14-.18-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.25-.28.55-.35.74-.35l.53.01c.17.01.4-.06.62.48.25.6.84 2.06.91 2.21.07.15.12.32.02.51-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.29.14.46.12.63-.08.17-.19.73-.85.92-1.14.19-.29.39-.24.65-.15.27.1 1.7.8 1.99.95.29.14.48.22.55.34.07.12.07.69-.18 1.39Z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <span>© <span id="year">2026</span> Lunguinho Mangabeira – Advocacia e Consultoria Jurídica. Todos os direitos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a href="#" class="whatsapp-float js-whatsapp" data-msg="Olá! Vim pelo site e gostaria de agendar uma consulta." aria-label="Falar pelo WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-1 .24-3.36-.7-2.84-1.12-4.63-4.03-4.77-4.22-.14-.18-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.25-.28.55-.35.74-.35l.53.01c.17.01.4-.06.62.48.25.6.84 2.06.91 2.21.07.15.12.32.02.51-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.29.14.46.12.63-.08.17-.19.73-.85.92-1.14.19-.29.39-.24.65-.15.27.1 1.7.8 1.99.95.29.14.48.22.55.34.07.12.07.69-.18 1.39Z"/></svg>
+  </a>
+
+  <!-- Lightbox da galeria -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Fechar">×</button>
+    <img src="" alt="">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
