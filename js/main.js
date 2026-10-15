@@ -3,7 +3,6 @@
    ========================================================= */
 
 // Número principal do WhatsApp (só dígitos, com 55 + DDD)
-// [CONFIRMAR] qual número deve receber as mensagens do site
 const WHATSAPP_PADRAO = "5561981993806";
 
 document.addEventListener("DOMContentLoaded", () => {
