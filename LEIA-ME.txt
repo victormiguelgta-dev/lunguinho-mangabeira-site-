@@ -10,6 +10,6 @@ Estrutura:
 
 Deploy: arraste a pasta inteira no Netlify (Deploys > Drag and drop).
 
-Pendências: procure "[CONFIRMAR]" no index.html (CEP do endereço novo).
+Pendências: nenhuma.
 
 Para trocar o vídeo: substitua video/escritorio.mp4 (e apague o .webm ou gere outro).

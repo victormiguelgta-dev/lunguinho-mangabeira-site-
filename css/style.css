@@ -364,6 +364,8 @@ a.topbar__item:hover { color: var(--white); }
 
 .map { border-radius: 22px; overflow: hidden; box-shadow: var(--shadow); border: 6px solid var(--white); }
 .map iframe { display: block; width: 100%; height: 380px; border: 0; }
+.map__actions { display: flex; justify-content: center; margin-top: 24px; }
+.map__actions .btn { white-space: normal; text-align: center; }
 
 /* ---------- Rodapé ---------- */
 .footer { background: var(--navy); color: #b9c6dc; font-size: .94rem; }
